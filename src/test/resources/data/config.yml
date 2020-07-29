@@ -1,0 +1,14 @@
+!!support.Config
+browser: chrome
+isHeadless: false
+implicitTimeout: 1
+pageLoadTimeout: 300
+explicitTimeout: 5
+supportedOSList:
+  - mac
+  - win
+admin:
+  username: jdoe
+  password: welcome
+
+#   !! here support.config connects the yml to class, if not mentioned this will consider ths as Map and does not run when called.

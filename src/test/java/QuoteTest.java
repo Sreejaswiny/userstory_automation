@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
-import static support1.TestContext.*;
+import static support.TestContext.*;
 
 public class QuoteTest {
 
@@ -16,7 +16,8 @@ public class QuoteTest {
 //          driver = new ChromeDriver();
 //           driver.get("https://skryabin.com/market/quote.html");
 
-        initialize("chrome");
+//        initialize("chrome");
+        initialize();
         getDriver().get("https://skryabin.com/market/quote.html");
 
         }

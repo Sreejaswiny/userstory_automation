@@ -8,8 +8,8 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 
-import static support1.TestContext.getWait;
-import static support1.TestContext.initialize;
+import static support.TestContext.getWait;
+import static support.TestContext.initialize;
 
 public class TestingWorldRegPage extends Page{
 
